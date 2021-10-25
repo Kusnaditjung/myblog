@@ -1,0 +1,31 @@
+baseurl = "https://kusnaditjung.github.io"
+title = "Kusnadi"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "On coding and learning"
+  mainSections = ["post","posts"]
+  logo = "img/logo.png" 
+  favicon = "img/favicon.ico"
+
+
+[Author]
+  name = "Kusnadi"
+  email = "kusnaditjung@yahoo.com"   
+  github = "KusnadiTjung" 
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Bio"
+    url = "page/about/"
+    weight = 2
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
